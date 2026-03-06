@@ -31,3 +31,16 @@ CREATE TABLE usuario (
     nome VARCHAR(100),
     idade INT
 );
+2. Configurando o Projeto no Eclipse
+Clone este repositório no seu computador.
+
+Importe o projeto no Eclipse.
+
+Baixe o Driver JDBC do PostgreSQL.
+
+No Eclipse, clique com o botão direito no projeto > Build Path > Configure Build Path... > Libraries > Classpath > Add External JARs... e adicione o arquivo .jar do driver baixado.
+
+Abra o arquivo DAO.java e altere a variável senhaDoBanco (na linha 13) para a senha do seu usuário postgres local.
+
+3. Rodando a Aplicação
+Abra o arquivo Principal.java e execute o programa. O menu interativo aparecerá na aba Console do Eclipse. 
